@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>How Different People Use Generative AI</title>
+		<meta name="description" content="A playful, animated site showing how different people might use Generative AI." />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,600;8..144,800&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header class="site-header" role="banner">
+			<div class="brand" aria-label="Site branding">
+				<div class="logo" aria-hidden="true"><div class="logo-inner"></div></div>
+				<div>
+					<h1>How People Use Generative AI</h1>
+					<p>Explore six personas and the practical, safe ways they might use GenAI.</p>
+				</div>
+			</div>
+		</header>
+
+
+
+		<main>
+			<section class="hero" aria-labelledby="intro-title">
+				<h2 id="intro-title">Pick a card to reveal more</h2>
+			</section>
+
+			<section id="grid" class="grid-wrap" aria-label="Persona grid">
+				<div class="grid">
+					<article class="card">
+						<span class="tag">Student</span>
+						<h3>Myself</h3>
+						<p>Study buddy, code helper, and idea iterator</p>
+						<div class="sparkle" aria-hidden="true"></div>
+						<a class="stretched" href="#myself" aria-label="Open Myself details">Open</a>
+					</article>
+
+					<article class="card">
+						<span class="tag">Classmates</span>
+						<h3>Peers</h3>
+						<p>Project planning, coding, and general search</p>
+						<div class="sparkle" aria-hidden="true"></div>
+						<a class="stretched" href="#peers" aria-label="Open Peers details">Open</a>
+					</article>
+
+					<article class="card">
+						<span class="tag">Family</span>
+						<h3>Parents</h3>
+						<p>Searches, Smart Home, and Image Generation</p>
+						<div class="sparkle" aria-hidden="true"></div>
+						<a class="stretched" href="#parents" aria-label="Open Parents details">Open</a>
+					</article>
+
+					<article class="card">
+						<span class="tag">Family</span>
+						<h3>Grandparents</h3>
+						<p>Accessibility, summaries, and search</p>
+						<div class="sparkle" aria-hidden="true"></div>
+						<a class="stretched" href="#grandparents" aria-label="Open Grandparents details">Open</a>
+					</article>
+
+					<article class="card">
+						<span class="tag">Public Service</span>
+						<h3>Idaho State Employee</h3>
+						<p>Drafting, summarizing, and service improvements</p>
+						<div class="sparkle" aria-hidden="true"></div>
+						<a class="stretched" href="#id-state-worker" aria-label="Open Idaho State Employee details">Open</a>
+					</article>
+
+					<article class="card">
+						<span class="tag">Small Biz</span>
+						<h3>Small Business Owner</h3>
+						<p>Marketing, support, and workflow automation.</p>
+						<div class="sparkle" aria-hidden="true"></div>
+						<a class="stretched" href="#small-business" aria-label="Open Small Business Owner details">Open</a>
+					</article>
+				</div>
+			</section>
+
+			<!-- Overlays: CSS-only modals using :target -->
+			<section id="myself" class="overlay" aria-hidden="true">
+				<div class="modal" role="dialog" aria-labelledby="myself-title">
+					<header>
+						<h2 id="myself-title">Myself — A Student and Builder</h2>
+						<a href="#" class="close-btn" aria-label="Close">✕</a>
+					</header>
+					<div class="content">
+						<div class="meta">
+							<img class="person" src="img/cat.gif" alt="Illustration of a student using a laptop" />
+							<div>
+								<p>
+									I use GenAI as a force multiplier for learning and making things. It helps me brainstorm, 
+									draft, and debug—while I stay critical about facts and test results.
+								</p>
+								<ul>
+									<li>Generate study plans and flashcards from lecture notes.</li>
+									<li>Turn rough ideas into draft projects I can iterate on.</li>
+									<li>Explain code errors and suggest alternative implementations.</li>
+									<li>Summarize research papers.</li>
+								</ul>
+								<p class="links">
+									Helpful tools:
+									<a href="https://chat.openai.com" target="_blank" rel="noopener">ChatGPT</a>,
+									<a href="https://github.com/features/copilot" target="_blank" rel="noopener">GitHub Copilot</a>,
+									<a href="https://ollama.com" target="_blank" rel="noopener">Ollama</a>
+								</p>
+								<p class="tip">Tip: Be as specific as possible while prompting, use verbose language to illustrate the desired outcome.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="peers" class="overlay" aria-hidden="true">
+				<div class="modal" role="dialog" aria-labelledby="peers-title">
+					<header>
+						<h2 id="peers-title">Peers — Classmates and Teammates</h2>
+						<a href="#" class="close-btn" aria-label="Close">✕</a>
+					</header>
+					<div class="content">
+						<div class="meta">
+							<div>
+								<p>
+									Peers lean on GenAI for similar things to myself, Project planning, an idea planner, and as a coding buddy.
+								</p>
+								<ul>
+									<li>Draft project charters, timelines, and risk lists.</li>
+									<li>Rewrite assignments for clarity and tone.</li>
+									<li>Create quick mockups and game assets.</li>
+								</ul>
+								<p class="links">
+									Try: <a href="https://gemini.google.com/" target="_blank" rel="noopener">Gemini</a> ·
+									<a href="https://www.figma.com/community/plugin/747985167520967365/content-reel" target="_blank" rel="noopener">Figma content plugins</a>
+
+								</p>
+								<p class="tip">Tip: Make sure to check results for accuracy, and generated images for errors.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="parents" class="overlay" aria-hidden="true">
+				<div class="modal" role="dialog" aria-labelledby="parents-title">
+					<header>
+						<h2 id="parents-title">Parents — Busy and Curious</h2>
+						<a href="#" class="close-btn" aria-label="Close">✕</a>
+					</header>
+					<div class="content">
+						<div class="meta">
+							<div>
+								<p>
+									Parents might use GenAI to save time and reduce stress for planning, making art, and learning.
+								</p>
+								<ul>
+									<li>Plan family trips: routes, budgets, and rainy-day backups.</li>
+									<li>Rewrite emails for clarity and tone.</li>
+									<li>Use AI for general quick searches.</li>
+									<li>Generate images to create art.</li>
+								</ul>
+								<p class="links">
+									Explore:  <a href="https://gemini.google.com/" target="_blank" rel="noopener">Gemini</a>,
+									<a href="https://chat.openai.com" target="_blank" rel="noopener">ChatGPT</a>
+									<a href="https://www.comfy.org/download" target="_blank" rel="noopener">ComfyUI</a>
+								</p>
+								<p class="warn">Reminder: Don't paste private data into public AI tools.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="grandparents" class="overlay" aria-hidden="true">
+				<div class="modal" role="dialog" aria-labelledby="grandparents-title">
+					<header>
+						<h2 id="grandparents-title">Grandparents — Helpful and Accessible</h2>
+						<a href="#" class="close-btn" aria-label="Close">✕</a>
+					</header>
+					<div class="content">
+						<div class="meta">
+							<div>
+								<p>
+									Grandparents can benefit from AI as a friendly helper for access, learning, and staying connected.
+								</p>
+								<ul>
+									<li>Summarize long articles in plain language.</li>
+									<li>Generate step-by-step tech help with big fonts.</li>
+									<li>Voice to text for emails and messages.</li>
+									<li>Language translation to chat with friends abroad.</li>
+									<li>General quick searches</li>
+								</ul>
+								<p class="links">Accessibility: <a href="https://support.apple.com/guide/iphone/voice-control-iph1c0a5c502/ios" target="_blank" rel="noopener">iOS Voice Control</a> · <a href="https://support.google.com/accessibility/android/answer/6007100?hl=en" target="_blank" rel="noopener">Android Accessibility</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="id-state-worker" class="overlay" aria-hidden="true">
+				<div class="modal" role="dialog" aria-labelledby="id-state-title">
+					<header>
+						<h2 id="id-state-title">People who work for the State Government of Idaho</h2>
+						<a href="#" class="close-btn" aria-label="Close">✕</a>
+					</header>
+					<div class="content">
+						<div class="meta">
+							<div>
+								<p>
+									Idaho public servants can leverage GenAI to improve service quality and efficiency while respecting policy and privacy.
+								</p>
+								<ul>
+									<li>Draft and simplify public-facing notices, FAQs, and emails.</li>
+									<li>Summarize long policy documents and pull key actions.</li>
+									<li>Create checklists and templates for repeatable processes.</li>
+									<li>Analyze anonymized feedback to spot trends and needs.</li>
+								</ul>
+								<p class="links">
+									Resources: <a href="https://www.oit.idaho.gov/" target="_blank" rel="noopener">Idaho Office of Information Technology Services</a> ·
+									<a href="https://www.usa.gov/ai" target="_blank" rel="noopener">USA.gov AI policy hub</a>
+								</p>
+								<p class="warn">Policy: Follow agency AI guidelines and never input sensitive or personally identifiable information (PII) into public tools.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="small-business" class="overlay" aria-hidden="true">
+				<div class="modal" role="dialog" aria-labelledby="smb-title">
+					<header>
+						<h2 id="smb-title">Small Business Owner — Scrappy and Customer‑Focused</h2>
+						<a href="#" class="close-btn" aria-label="Close">✕</a>
+					</header>
+					<div class="content">
+						<div class="meta">
+							<div>
+								<p>
+									Small businesses can use GenAI to amplify marketing, support, and operations without big budgets.
+								</p>
+								<ul>
+									<li>Draft posts, ads, and product descriptions in their brand voice.</li>
+									<li>Answer common customer questions via chat or email templates.</li>
+									<li>Create SOP checklists and training snippets for staff.</li>
+									<li>Summarize reviews to find top fixes and opportunities.</li>
+								</ul>
+								<p class="links">Tools: <a href="https://openai.com/chatgpt" target="_blank" rel="noopener">ChatGPT</a> · <a href="https://zapier.com/ai" target="_blank" rel="noopener">Zapier AI</a> · <a href="https://www.canva.com/ai-image-generator/" target="_blank" rel="noopener">Canva</a></p>
+								<p class="tip">Tip: Keep a style guide and feed it to the model with each request for consistent tone.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="compare" aria-labelledby="compare-title">
+				<h3 id="compare-title">Quick Comparison</h3>
+				<p>Here’s a small table comparing typical GenAI tasks across the six personas.</p>
+						<div class="table-wrap">
+						<table>
+					<thead>
+						<tr>
+							<th>Persona</th>
+							<th>Top Use</th>
+							<th>Common Tool</th>
+							<th>Risk</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Myself</td>
+							<td><span class="badge">Debug + Learn</span></td>
+							<td>ChatGPT, Copilot</td>
+							<td>Hallucinations → verify outputs</td>
+						</tr>
+						<tr>
+							<td>Peers</td>
+							<td><span class="badge">Brainstorm + Learn + Debug</span></td>
+							<td>Gemini, Copilot</td>
+							<td>Hallucinations → Verify outputs</td>
+						</tr>
+						<tr>
+							<td>Parents</td>
+							<td><span class="badge">Plan + Communicate</span></td>
+							<td>Assistants in apps</td>
+							<td>Privacy → avoid sensitive data</td>
+						</tr>
+						<tr>
+							<td>Grandparents</td>
+							<td><span class="badge">Accessibility</span></td>
+							<td>Voice, large-text helpers</td>
+							<td>Overtrust → keep human checks</td>
+						</tr>
+						<tr>
+							<td>Idaho State Employee</td>
+							<td><span class="badge">Draft + Summarize</span></td>
+							<td>Agency-approved tools</td>
+							<td>Compliance → follow policy</td>
+						</tr>
+						<tr>
+							<td>Small Business Owner</td>
+							<td><span class="badge">Marketing + Support</span></td>
+							<td>Chat + automation</td>
+							<td>Brand drift → use style guide</td>
+						</tr>
+					</tbody>
+						</table>
+						</div>
+			</section>
+		</main>
+	</body>
+	</html>
+
